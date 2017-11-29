@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: deepskyblue;
+}
+
+li {
+    text-align: left;
+    border-bottom: 1px solid #555;
+    float: left;
+}
+
+a{
+    display: inline;
+
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+
+}
