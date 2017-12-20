@@ -1,1 +1,23 @@
-<! -- Account -- >
+<form action="/account.html">
+    <link rel="stylesheet" href="account.css">
+    <div class="imagecontainer">
+        <img src="xxx.png" alt="Avataar" class="avataar">
+    </div>
+    <div class="container">
+        <label><b>User Name</b></label>
+        <input type="text" placeholder="Enter your Username" name="uname" required>
+
+        <label><b>Password</b></label>
+        <input type="text" placeholder="Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <input type="checkbox" placeholder="Remember Me!!!" required>
+    </div>
+    <div class="container" style="background-color: #f1f1f1">
+        <a href="signIn.html">
+            <button type="button">Sign In</button>
+        </a>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forget<a href="#">password?</a></span>
+    </div>
+</form>
